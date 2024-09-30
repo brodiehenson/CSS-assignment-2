@@ -32,23 +32,27 @@ img {
 
 #cougar {
     background: #b26219;
-    padding: 5rem 27.5rem;
-    flex-wrap: wrap;
-    flex: 1 1 0;
+    padding: 5rem;
 }
+
+
 
 #lion {
     background: #ffd5ae;
-    padding: 5rem 27.5rem;
-    flex-wrap: wrap;
-    flex: 1 1 0;
+    padding: 5rem;
 }
 
 #tiger {
     background: #ffbd82;
-    padding: 5rem 27.5rem;
-    flex-wrap: wrap;
-    flex: 1 1 0;
+    padding: 5rem;
+}
+
+.photo {
+    flex-grow: 5;
+}
+
+article {
+    display: flex;
 }
 
 section {
@@ -57,14 +61,10 @@ section {
 }
 
 .text {
-    background: #fff;
+    color: #000;
     padding: 1rem 3rem;
     font-size: 1.15rem;
     line-height: 1.5rem;
-}
-
-h2 {
-    text-align: center;
 }
 
 header {
